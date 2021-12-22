@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  color: #1c2c3c;
+  font-weight: 500;
+  font-size: 25px;
+}
+.active {
+  color: #ffffff;
+}
+.navBar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link + .link {
+  margin-left: 50px;
+}
+.link:focus,
+.link:hover {
+  color: #ffffff;
+}

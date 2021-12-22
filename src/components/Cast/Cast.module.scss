@@ -1,0 +1,29 @@
+.castList {
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 8px;
+  list-style: none;
+  border-top: 2px solid #1d2c3b;
+  padding-top: 18px;
+  text-align: end;
+}
+.castWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  // align-items: baseline;
+  text-align: center;
+  flex-wrap: wrap;
+}
+// .item {
+//   position: relative;
+// }
+.castImg {
+  width: 100px;
+}
+// .name {
+//   position: absolute;
+//   bottom: 0;
+// }
