@@ -17,7 +17,6 @@ const MoviesPage = () => {
   }, []);
   useEffect(() => {
     localStorage.setItem('movieList', JSON.stringify(movieList));
-    console.log('useEffect setStorage', 'movieList');
   }, [movieList]);
   const handleInput = e => {
     const { value } = e.target;
